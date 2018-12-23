@@ -557,8 +557,8 @@
         <location line="+357"/>
         <source>%n active connection(s) to Bitcoin network</source>
         <translation>
-            <numerusform>%n active connection to Bitcoin network</numerusform>
-            <numerusform>%n active connections to Bitcoin network</numerusform>
+            <numerusform>%n active connection to Bellcoin network</numerusform>
+            <numerusform>%n active connections to Bellcoin network</numerusform>
         </translation>
     </message>
     <message>
