@@ -9,9 +9,9 @@
 	-->
 	<style type="text/css"><![CDATA[
 		text {
-			font-family: "Tuffy";
+			font-family: "Varela Round";
 			font-size: 86px;
-			fill: gray;
+			fill: #2E3893;
 			text-anchor: middle;
 		}
 	]]></style>
