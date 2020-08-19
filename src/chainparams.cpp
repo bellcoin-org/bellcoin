@@ -183,22 +183,23 @@ public:
 
         checkpointData = {
             {
-                {      0, uint256S("0x000008f3b6bd10c2d03b06674a006b8d9731f6cb58179ef1eee008cee2209603")},
-                {  10000, uint256S("0x0000029aeba3fce5e681b58e0f2e5e787e42521dcdfc67b362d29bffb062ff2c")},
-                {  20000, uint256S("0x0000006ae88db6d4063db7ee29883b0ad1fde9d8181fe17512e1166d7c114840")},
-                {  30000, uint256S("0x0000010365dbfe2db8040ebc861416a0888260ba139ad42072a2af9a64af8aa6")},
-                {  40000, uint256S("0x00000084670d37155050328d5371a42fba10d57d3abb9681d533c74513261189")},
-                {  50000, uint256S("0x0000001d48387b5f753db11b0fd83007cbebde08ac2edff5bccfef6962d55f87")},
-                { 500000, uint256S("0x00000241f93229f6ed56748b38e1409a8be74f903081f056a68039c0a9061ba1")},
+                {       0, uint256S("0x000008f3b6bd10c2d03b06674a006b8d9731f6cb58179ef1eee008cee2209603")},
+                {   10000, uint256S("0x0000029aeba3fce5e681b58e0f2e5e787e42521dcdfc67b362d29bffb062ff2c")},
+                {   20000, uint256S("0x0000006ae88db6d4063db7ee29883b0ad1fde9d8181fe17512e1166d7c114840")},
+                {   30000, uint256S("0x0000010365dbfe2db8040ebc861416a0888260ba139ad42072a2af9a64af8aa6")},
+                {   40000, uint256S("0x00000084670d37155050328d5371a42fba10d57d3abb9681d533c74513261189")},
+                {   50000, uint256S("0x0000001d48387b5f753db11b0fd83007cbebde08ac2edff5bccfef6962d55f87")},
+                {  500000, uint256S("0x00000241f93229f6ed56748b38e1409a8be74f903081f056a68039c0a9061ba1")},
+                { 1000000, uint256S("0x000000e3c164cf6d90364a478a286188ced975d39ff933e5edd5412a30ba5b38")},
             }
         };
 
         chainTxData = ChainTxData{
-            // Data as of block height 540889 from 'getchaintxstats' command
-            1569285089, // * UNIX timestamp of last known number of transactions
-                641115, // * total number of transactions between genesis and that timestamp
+            // Data as of block height 1000000 from 'getchaintxstats' command
+            1597009230, // * UNIX timestamp of last known number of transactions
+               1181745, // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
-              0.018839  // * estimated number of transactions per second after that timestamp
+            0.01945472  // * estimated number of transactions per second after that timestamp
         };
     }
 };
