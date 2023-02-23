@@ -106,10 +106,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork  = uint256S("0x0000000000000000000000000000000000000000000000000000007163138595");
+        consensus.nMinimumChainWork  = uint256S("0x00000000000000000000000000000000000000000000000000000b7985d5a7c7"); // chainwork of block 2222222
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x0000001d48387b5f753db11b0fd83007cbebde08ac2edff5bccfef6962d55f87"); // 50000
+        consensus.defaultAssumeValid = uint256S("0x0000090bc8d23baac8a6ce912347837afb55edd22b009f602a5c29b1a3d66fd4"); // hash of block 2222222
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
