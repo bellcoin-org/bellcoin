@@ -196,7 +196,7 @@ public:
         };
 
         chainTxData = ChainTxData{
-            // Data as of block height 1000000 from 'getchaintxstats' command
+            // Data as of `bellcoin-cli getchaintxstats`
             1677131210, // * UNIX timestamp of last known number of transactions
                2751446, // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
