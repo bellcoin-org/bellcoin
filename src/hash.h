@@ -181,7 +181,7 @@ public:
     }
 };
 
-extern "C" void yespower_hash(const char *input, char *output);
+extern "C" int yespower_hash(const char *input, char *output);
 
 class CHashWriterYespower: public CHashWriter
 {
